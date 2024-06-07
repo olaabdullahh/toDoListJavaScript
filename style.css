@@ -1,0 +1,60 @@
+.parent{
+    margin: 0 auto;
+}
+.container{
+margin: 50px 20%;
+}
+.form{
+    background-color: #dedede;
+    border-radius: 5px;
+    padding: 20px;
+    display:flex;
+    align-items: center;
+}
+.form input{
+    width: 80%;
+    flex: 1;
+    height: 30px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+}
+#btn{
+    height: 30px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    background-color: red;
+    color: white;
+    margin-left: 10px;
+}
+#tasks{
+    background-color: #dedede;
+    margin: 20px;
+    min-height: 60px;
+    border-radius: 5px;
+    margin: 30px auto;
+    padding: 10px 0;
+}
+.delet{
+    height: 30px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    background-color: red;
+    color: white;
+    margin: 5px;
+}
+.bg{
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    border-radius: 5px;
+}
+.bg span{
+    padding: 20px;
+}
+.bg button{
+    margin: 20px;
+}
